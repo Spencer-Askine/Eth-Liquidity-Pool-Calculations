@@ -12,8 +12,8 @@ import cryptocompare
 
 
 # Set the token.
-DISCORD_TOKEN = os.getenv('MTE2NDYxMDUyMjYzMzczNjMxMg.G1DZLu._qOZlMMWVtlKqyr4TE2SRGT0DPe0d8W3ogiass')
-cryptocompare.cryptocompare._set_api_key_parameter('b460f741ddd5808ee358b4bd0f8ba9c9278b75d12c1905b302885ceab3632777')
+DISCORD_TOKEN = os.getenv('')
+cryptocompare.cryptocompare._set_api_key_parameter('')
 # Define whatever this is.
 intents = discord.Intents.default()
 intents.message_content = True
@@ -268,7 +268,7 @@ async def on_ready():
 
 
 
-client.run('MTE2NDYxMDUyMjYzMzczNjMxMg.G1DZLu._qOZlMMWVtlKqyr4TE2SRGT0DPe0d8W3ogiass')
+client.run('')
 
 
 
