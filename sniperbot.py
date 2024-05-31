@@ -20,7 +20,7 @@ intents.message_content = True
 client = commands.Bot(command_prefix='/', intents=intents)
 
 
-bot_status = cycle(["This bots ass","Maybe working","kms smells","Big brain activities"])
+bot_status = cycle([""])
 
 
 @tasks.loop(seconds=5)
