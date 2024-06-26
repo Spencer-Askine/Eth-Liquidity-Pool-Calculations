@@ -223,7 +223,7 @@ async def mobilesnipe(interaction: discord.Interaction, percent_token_lp: float,
     wiki_image = "https://media.tenor.com/9hd9gB_WFqIAAAAC/sniper-pubg.gif"
     
     embed.set_thumbnail(url=wiki_image)
-    embed.set_footer(text="Made by the worst dev ever")                  
+    embed.set_footer(text="Made by Spencer")                  
     
     await interaction.response.send_message(embed=embed)
 
